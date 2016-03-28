@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Suivi - fin</title>
+    <meta charset="utf-8">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="formulaire.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="test_css.css" media="screen" />
+  </head>
+
+<body>
+    <div class="container">
+
+    <div class="row">
+        <div class="col-md-2"> </div>
+
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-3">
+    				    <img src="logo.png" alt="logo SINGA"  width=200 height = 200 />
+                </div>
+
+                <div class="col-md-8">
+                </div>
+            </div>
+
+            <div class ="row">
+                <div class="col-md-12">
+    	          
+			 <p style="margin-top: 40px"> <h4>
+                        Merci de ce retour, <br> <br>
+                        En cas de problème ou si vous avez des questions n'hésitez pas à nous contacter. <br>  <br>
+                        L'équipe Singa
+                     </h4></p>
+		           
+	           </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+            	 
+			  <a href="accueil.html" class="btn btn-warning btn-lg" style="width:300px"> Retour à la page d'accueil </a>
+            	
+                </div>
+	
+                <div class="col-md-5">
+            	 
+			<a href="deconnexion.html" class="btn btn-warning btn-lg" style="width:150px"> Deconnexion </a>  
+            	 
+                </div>
+            </div>
+	</div>
+        <div class="col-md-2"> </div>
+    </div>
+</div>
+</body>
+
+    
+
+    
+

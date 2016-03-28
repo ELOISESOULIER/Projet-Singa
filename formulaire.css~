@@ -1,0 +1,81 @@
+h2,div h2{
+color:orange;
+font-weight:bold;
+}
+
+h1,h2,h3,h4{
+text-align:center;
+}
+
+
+
+div a[class="btn btn-warning btn-lg"] {
+   display: block;
+   margin : auto;
+}
+
+.marge { margin:20px 0px 0px 0px; } 
+
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 150px;
+  margin:1em;
+  color:maroon;
+  text-align: right;
+}
+
+
+div  {
+  margin:1em;
+  line-height:20px;
+  vertical-align:middle;
+}
+
+.bouton_image > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+
+.bouton_image > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid;
+}
+.bouton_image > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid color:maroon;
+}
+
+input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font: 1em sans-serif;
+	
+  /* To give the same size to all text field */
+  width: 200px;
+  min-height: 30px;
+
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid orange;
+  border-radius:5px;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: maroon;
+}
+
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+
+

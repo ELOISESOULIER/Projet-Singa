@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Connexion SINGA</title>
+    <meta charset="utf-8">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="formulaire.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="test_css.css" media="screen" />
+  </head>
+
+<body>
+    <div class="container">
+
+    <div class="row">
+        <div class="col-md-2"> </div>
+
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-3">
+    				    <img  src="logo.png" alt="logo SINGA"  width=200 height = 200 />
+                </div>
+
+                <div class="col-md-8">
+                
+                        <h2> Programme de buddies - SINGA </h2>
+                
+                </div>
+            </div>
+	<form method="post" action="traitement.php">
+         <div class = "row">
+	        <div class="col-md-3"><label for="nom">Identifiant:</label></div>
+	        <div class="col-md-3"><input type="text" name="nom" id="nom" placeholder="Ex : John"/></div>
+	</div>
+	   <div class = "row">
+	        <div class="col-md-3"><label for="mdp">Mot de passe :</label></div>
+	        <div class="col-md-3"><input type="password" name="mdp" id="mdp"/></div>
+	</div>
+	</form>
+            <div class="row">
+                <div class="col-md-12">
+            	
+			<a href="accueil.html" class="btn btn-warning btn-lg" style="width:200px"> Connexion </a>
+		
+                </div>
+                </div>
+            
+	    <div class="row">
+		
+                        <p style="margin-top: 100px">Vous n'êtes pas inscrit ? Rendez vous sur <a href="https://singa.fr"> Le site de Singa </a> </p>
+			    
+	    </div>
+	</div>
+        <div class="col-md-2"> </div>
+    </div>
+</div>
+</body>
+
+    
+
+    
+

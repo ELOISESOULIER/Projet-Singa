@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Votre avis</title>
+    <meta charset="utf-8">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="formulaire.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="test_css.css" media="screen" />
+  </head>
+
+<body>	
+	<div class="container">
+		<div class="row" >
+			<div class="col-md-2" ></div>
+			<div class="col-md-8">
+				<div class="row" >
+	        			<div class="col-md-3"><img class ="marge" src="logo.png" width=75% height = 75% /></div>
+	        			<div class="col-md-9"><h2>Comment ça s'est passé ? </h2></div>
+				<div/>
+	        		<div class = "row">
+	        			<div class="col-md-3"><label for="date">C'était quand ? :</label></div>
+	        			<div class="col-md-3"><input type="text" id="date"/></div>
+				</div>
+	    			<div class = "row">
+					<div class="col-md-4"><label for="avis">Et c'était bien ? </label></div>
+	     			</div>
+
+	     			<div class="row">
+					<div class="col-md-offset-3"></div>
+	            			<div class="col-md-2"><img src="happy.jpeg" width=50% height=50% /></div>
+	    	    			<div class="col-md-2"> <img src="neutre.jpeg"width=50% height=50%/>  </div>
+	               	 		<div class="col-md-2"> <img src="unhappy.jpeg"width=50% height=50% /> </div>
+		        		<div class="col-md-offset-3"></div>
+	         		</div>
+				<div class="row">
+					<div class="col-md-4 col-md-push-2">
+						<div class="button">
+        						<button type="submit">Sauvegarder et continuer</button>
+    						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>     	
+	</div>
+
+    
+
+  
+
+
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
